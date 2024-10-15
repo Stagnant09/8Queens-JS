@@ -73,3 +73,27 @@
     background-color: rgb(230, 230, 230);
     cursor: pointer;
 }
+
+.rules {
+    text-align: center;
+    font-size: small;
+    width: 800px;
+}
+
+/*Mobile Phones*/
+@media only screen and (max-width: 600px) {
+    .containerCentralGrid {
+        height: 65vh;
+        width: 55vh;
+    }
+    .centralGrid {
+        height: 38vh;
+        width: 38vh;
+    }
+    .rules {
+        width: 400px;
+        text-align: center;
+        height: 30vh;
+        font-size: smaller;
+    }
+}
