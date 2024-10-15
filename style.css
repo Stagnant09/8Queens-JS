@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.outterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.containerCentralGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 90vh;
+}
+
+.centralGrid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 45vh;
+    width: 45vh;
+}
+
+.descriptionGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 80vh;
+}
+
+.cell {
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+#submitSolution {
+    background-color: rgb(240, 240, 240);
+    color: black;
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 900;
+}
+
+#playAgain {
+    margin-top: 10px;
+    display: none;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 900;
+    border: 0px;
+}
+
+#playAgain:hover {
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
